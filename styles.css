@@ -1,0 +1,170 @@
+body {
+    margin: 0px;
+    background-image: url("assets/casino-felt.jpg");
+    /* background-size: cover; */
+}
+
+main {
+    width: 621px;
+
+    margin: 0px auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stretch-to-end {
+    justify-content: space-between;
+} 
+
+.hidden {
+    display: none;
+}
+
+.main-title {
+    margin-top: 72px;
+    color: #DFA40B;
+    font-family: Arial;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dealers-cards-container {
+    margin-top: 32px;
+    width: 100%;
+    height: 119px;
+    width: auto;
+    align-self: start;
+    display: flex;
+    gap: 5px;
+}
+
+/* -------------- */
+
+.card {
+    width: 85px;
+    height: 117px;
+    background-size: cover;
+}
+
+.unshown-card {
+    background-image: url("assets/unshown.png");
+}
+
+/* -------------- */
+
+.dealer-score {
+    color: #FFF; 
+    font-family: Arial;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.result {
+    color: #FFF; 
+    font-family: Arial;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.player-score {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.players-cards-container {
+    margin-top: 32px;
+    width: 100%;
+    height: 119px;
+    width: auto;
+    align-self: start;
+    display: flex;
+    gap: 5px;
+}
+
+.play-container {
+    margin-top: 79px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.play-btn-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.hit-btn, .stand-btn, .start-btn {
+    width: 212px;
+    height: 47px;
+    border-radius: 9px;
+    background: #DFA40B;
+    color: #096E2C;
+    font-family: Arial;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-bet-container {
+
+}
+
+.text-bet {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/*  For Start  */
+
+.start-container {
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bet-container {
+    display: flex;
+    align-items: center;
+}
+
+.text-set-bet {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-wrap: nowrap;
+    margin-right: 82px;
+}
+
+.input-set-bet {
+    width: 212px;
+    line-height: 20px;
+    border-radius: 9px;
+    background: #DFA40B;
+}
+
+.start-btn {
+    margin-top: 36px;
+    align-self: center;
+}
